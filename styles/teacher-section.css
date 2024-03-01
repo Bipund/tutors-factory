@@ -1,0 +1,49 @@
+.heading-text {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.Headline-blue {
+    color: #2C65B4 !important;
+}
+
+.carousel-item {
+    display: flex;
+}
+
+.carousel-item .card {
+    flex: 1;
+    margin-right: 15px;
+    /* Adjust margin between cards */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+    fill: #000000;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    fill: #000000 !important;
+    /* Adjust the color as needed */
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        display: block !important;
+        /* Ensure carousel items stack on top of each other on mobile */
+    }
+}
+
+hr {
+    height: 4px;
+    /* Adjust height as needed */
+    background-color: #000;
+    /* Adjust color as needed */
+    border: none;
+    /* Remove default border */
+    margin: 20px 0;
+    /* Adjust margin as needed */
+}

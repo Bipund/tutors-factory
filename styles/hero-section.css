@@ -1,0 +1,54 @@
+.Hero-section {
+    min-height: 100vh;
+    background-color: #d3deed;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+
+.make-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.make-bottom {
+    justify-content: end;
+}
+
+.btn-primary {
+    background-color: #2C65B4 !important;
+}
+
+.book-button {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    padding: 10px;
+    /* line-height: 19px !important; */
+}
+
+.make-center-vertically {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-Hero {
+    color: #393939;
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 700;
+}
+
+.text-sub-hero {
+    color: #393939;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.container-flex {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 30px;
+}
