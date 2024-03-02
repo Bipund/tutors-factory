@@ -5,6 +5,34 @@
 }
 
 
-h1 {
-    color: red;
+
+.shardow-white-card {
+    background-color: #ffffff;
+    box-shadow: 0px 12px 16px -4px rgb(17, 24, 39, 0.1);
+}
+
+.card {
+    margin: 20px 15px 20px;
+}
+
+.pannel-body {
+    padding: 20px;
+}
+
+.avatar-stack {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-stack img {
+    width: 50px;
+    /* Adjust size as needed */
+    height: 50px;
+    /* Adjust size as needed */
+    border-radius: 50%;
+    /* Make the images circular */
+    margin-left: -15px;
+    /* Adjust spacing between avatars */
+    border: 2px solid #fff;
+    /* Add a border around each avatar */
 }

@@ -38,12 +38,18 @@
 }
 
 hr {
-    height: 4px;
-    /* Adjust height as needed */
-    background-color: #000;
-    /* Adjust color as needed */
     border: none;
+    height: 4px;
+    border-top: 0 !important;
+    /* Adjust height as needed */
+    background: linear-gradient(to right, #a7a5ad, rgba(235, 234, 237, 0.1)) !important;
+    /* Adjust color as needed */
     /* Remove default border */
     margin: 20px 0;
     /* Adjust margin as needed */
+}
+
+
+.avatar {
+    margin-left: -30px;
 }
