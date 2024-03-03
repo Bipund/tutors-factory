@@ -25,14 +25,133 @@
 }
 
 .avatar-stack img {
-    width: 50px;
+    width: 100px;
     /* Adjust size as needed */
-    height: 50px;
+    height: 100px;
     /* Adjust size as needed */
     border-radius: 50%;
     /* Make the images circular */
-    margin-left: -15px;
+    margin-left: -50px;
     /* Adjust spacing between avatars */
     border: 2px solid #fff;
     /* Add a border around each avatar */
+}
+
+.sticky-button {
+    position: fixed;
+    bottom: 0px;
+    z-index: 1000;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute !important
+}
+
+
+
+.owl-prev,
+.owl-next:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.owl-prev {
+    top: 40%;
+    left: -10px;
+}
+
+.owl-next {
+    top: 40%;
+    right: -10px;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+    padding: 10px;
+    /* Optional: Add shadow for better visibility */
+}
+
+.section {
+    height: 500px;
+    /* Just for demonstration */
+    padding-top: 50px;
+    /* Adjust according to the height of your sticky header */
+}
+
+.fade-in-slide-up {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    /* Adjust animation duration and timing function as needed */
+}
+
+@media only screen and (max-width: 767px) {
+    #logo {
+        width: 100px;
+        height: 60px;
+    }
+
+    .fade-in-slide-up {
+        opacity: 1;
+        transform: translateY(0%);
+        /* Adjust animation duration and timing function as needed */
+    }
+
+    .book-button {
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .Hero-section {
+        padding-left: 0.5em !important;
+        padding-right: 0.5em !important;
+    }
+
+    .text-Hero {
+        font-size: 50px !important;
+        line-height: 50px !important;
+    }
+
+    .text-mobile {
+        font-size: 12px !important;
+    }
+
+    .svg-star {
+        width: 210px;
+    }
+
+    .avatar-stack img {
+        width: 40px;
+        /* Adjust size as needed */
+        height: 40px;
+        /* Adjust size as needed */
+        margin-left: -20px;
+
+    }
+
+    .text-10K span {
+        font-size: 16px !important;
+    }
+
+    .assets-testimonial {
+        height: 60px;
+        width: 100%;
+    }
+
+    .card-height {
+        min-height: 100px !important;
+    }
+
+    .card {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
 }
