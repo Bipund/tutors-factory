@@ -92,7 +92,24 @@
     /* Adjust animation duration and timing function as needed */
 }
 
+.mobileHero {
+    display: none;
+}
+
+.desktopHero {
+    display: block;
+}
+
 @media only screen and (max-width: 767px) {
+
+    .mobileHero {
+        display: block;
+    }
+
+    .desktopHero {
+        display: none;
+    }
+
     #logo {
         width: 100px;
         height: 60px;
