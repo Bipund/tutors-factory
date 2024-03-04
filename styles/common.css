@@ -107,6 +107,14 @@
 
 @media only screen and (max-width: 767px) {
 
+    .heading-text {
+        font-size: 20px !important;
+    }
+
+    .footer-text {
+        font-size: 16px !important;
+    }
+
     .mobileHero {
         display: block;
     }
