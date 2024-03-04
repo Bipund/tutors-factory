@@ -37,6 +37,10 @@
     /* Add a border around each avatar */
 }
 
+.grey-color {
+    color: #393939 !important;
+}
+
 .sticky-button {
     position: fixed;
     bottom: 0px;
@@ -109,6 +113,7 @@
 
     .heading-text {
         font-size: 20px !important;
+        
     }
 
     .img-responsive {
