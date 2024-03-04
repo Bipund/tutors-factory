@@ -113,7 +113,7 @@
 
     .heading-text {
         font-size: 20px !important;
-        
+
     }
 
     .img-responsive {
@@ -181,8 +181,8 @@
     }
 
     .assets-testimonial {
-        height: 60px;
-        width: 100%;
+        /* height: 60px; */
+        /* width: 100%; */
     }
 
     .card-height {
