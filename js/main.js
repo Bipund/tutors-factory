@@ -139,3 +139,19 @@ window.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
+
+// Function to load YouTube video into player
+function loadVideo(url) {
+    // Extract video ID from YouTube URL
+    var videoId = url.split('/').pop();
+
+    // Load video into player
+    document.getElementById('player').innerHTML = '<iframe width="640" height="360" src="https://www.youtube.com/embed/' + videoId + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+}
+
+$('#videoModal').on('hide.bs.modal', function (event) {
+    // Pause the video when modal is closed
+    console.log("inside modal close")
+
+});
