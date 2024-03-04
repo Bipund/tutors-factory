@@ -109,12 +109,45 @@
     height: auto;
 }
 
+
+.enrolled-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.enrolled-section {
+    margin-right: 3rem !important;
+    margin-left: 3rem !important;
+}
+
+.hero-f svg {
+    width: 50%;
+
+}
+
 @media only screen and (max-width: 767px) {
 
     .heading-text {
         font-size: 20px !important;
+        line-height: 24px;
 
     }
+
+    .enrolled-section {
+        margin: 0 5px !important;
+    }
+
+    .mobile-disable {
+        display: none;
+    }
+
+    .text-10K span {
+        font-size: 12px !important;
+        justify-content: center;
+        align-self: center;
+        display: flex;
+    }
+
 
     .img-responsive {
         width: 100% !important;
@@ -174,11 +207,14 @@
         /* Adjust size as needed */
         margin-left: -20px;
 
+
     }
 
-    .text-10K span {
+    .mobile-font {
         font-size: 16px !important;
     }
+
+
 
     .assets-testimonial {
         /* height: 60px; */
