@@ -18,6 +18,7 @@ $(document).ready(function () {
         navigation: true,
         pagination: true,
         nav: true,
+        loop: true,
         margin: 10,
         navText: [`<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M29.7694 11.8897C28.9559 11.0761 27.6369 11.0761 26.8232 11.8897L16.6411 22.0819C15.0152 23.7094 15.0159 26.3465 16.6425 27.9729L26.8307 38.1612C27.6444 38.9748 28.9634 38.9748 29.7771 38.1612C30.5907 37.3477 30.5907 36.0285 29.7771 35.215L21.0569 26.4948C20.2433 25.6812 20.2433 24.3623 21.0569 23.5485L29.7694 14.836C30.5832 14.0224 30.5832 12.7033 29.7694 11.8897Z" fill="#393939"/>
@@ -150,8 +151,10 @@ function loadVideo(url) {
     document.getElementById('player').innerHTML = '<iframe width="640" height="360" src="https://www.youtube.com/embed/' + videoId + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
 }
 
-$('#videoModal').on('hide.bs.modal', function (event) {
+$('#exampleModalCenter').on('hide.bs.modal', function (event) {
     // Pause the video when modal is closed
     console.log("inside modal close")
+    document.getElementById('player').innerHTML = '';
+
 
 });
