@@ -12,6 +12,21 @@
 //     });
 // });
 
+
+// window.addEventListener('scroll', function () {
+//     var stickyHeader = document.getElementById('stickyHeader');
+//     var section = document.querySelector('.section');
+//     var sectionTop = section.offsetTop;
+//     var scrollTop = window.scrollY || window.pageYOffset;
+
+//     if (scrollTop >= sectionTop) {
+//         stickyHeader.classList.add('stuck');
+//     } else {
+//         stickyHeader.classList.remove('stuck');
+//     }
+// });
+
+
 $(document).ready(function () {
     $(".owl-carousel").owlCarousel({
         items: 3,
